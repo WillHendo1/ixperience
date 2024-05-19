@@ -1,0 +1,163 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quattrocento', serif;
+    background-color: #faf3e6;
+}
+
+h2 {
+    width: 100%;
+    font-size: 30px;
+    color: #eb9f49;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    justify-content: center;
+  }
+
+header nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+nav button {
+    font-size: 20px;
+    background-color: #faf3e6;
+    color: #5C4033;
+    border: none;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+nav button:hover{
+    color: #eb9f49;
+}
+
+nav .divider{
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    color: #5C4033;
+}
+
+header h1 {
+    width: 100%;
+    font-size: 100px;
+    color: #5C4033;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h2 {
+    padding-top: 30px;
+    border: none;
+}
+
+
+
+.text-container{
+    max-width: 600px;
+}
+
+.text-container h2{
+    font-size: 25px;
+    color: #5C4033;
+    border-bottom: none;
+
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-container img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.section h2{
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;    
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.sub-section {
+    margin-left: 20px;
+}
+
+.sub-section-header {
+    font-weight: bold;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.details li {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: right;
+}
